@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Patch Apply: Apply",
+        "command": "patch_apply_do"
+    }
+]

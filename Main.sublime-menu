@@ -1,0 +1,48 @@
+[
+    // {
+    //     "id": "tools",
+    //     "children":
+    //     [
+    //         {
+    //             "caption": "Patch Apply",
+    //             "children":
+    //             [
+    //                 { "caption": "Command name", "command": "patch_apply_do" }
+    //             ]
+    //         }
+    //     ]
+    // },
+    // {
+    //     "caption": "Preferences",
+    //     "mnemonic": "n",
+    //     "id": "preferences",
+    //     "children":
+    //     [
+    //         {
+    //             "caption": "Package Settings",
+    //             "mnemonic": "P",
+    //             "id": "package-settings",
+    //             "children":
+    //             [
+    //                 {
+    //                     "caption": "Patch Apply",
+    //                     "children":
+    //                     [
+    //                         {
+    //                             "command": "open_file",
+    //                             "args": {"file": "${packages}/Patch Apply/Patch Apply.sublime-settings"},
+    //                             "caption": "Settings – Default"
+    //                         },
+    //                         {
+    //                             "command": "open_file",
+    //                             "args": {"file": "${packages}/User/Patch Apply.sublime-settings"},
+    //                             "caption": "Settings – User"
+    //                         },
+    //                         { "caption": "-" }
+    //                     ]
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // }
+]
