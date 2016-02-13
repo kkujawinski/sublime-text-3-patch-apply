@@ -1,0 +1,35 @@
+diff --git a/abc/Main.sublime-menu b/abc/Main.sublime-menu
+index 076a129..4eaef42 100644
+--- a/abc/Main.sublime-menu
++++ b/abc/Main.sublime-menu
+@@ -1,17 +1,17 @@
+ [
+-    // {
+-    //     "id": "tools",
+-    //     "children":
+-    //     [
+-    //         {
+-    //             "caption": "Patch Apply",
+-    //             "children":
+-    //             [
+-    //                 { "caption": "Command name", "command": "patch_apply_do" }
+-    //             ]
+-    //         }
+-    //     ]
+-    // },
++    {
++        "id": "tools",
++        "children":
++        [
++            {
++                "caption": "Patch Apply",
++                "children":
++                [
++                    { "caption": "Command name", "command": "patch_apply_do" }
++                ]
++            }
++        ]
++    },
+     // {
+     //     "caption": "Preferences",
+     //     "mnemonic": "n",

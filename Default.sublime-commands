@@ -1,6 +1,32 @@
 [
     {
-        "caption": "Patch Apply: Apply",
-        "command": "patch_apply_do"
+        "caption": "Preferences: Patch Apply Settings – Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/Patch Apply/Patch Apply.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: Patch Apply Settings – User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Patch Apply.sublime-settings"
+        }
+    },
+    {
+        "caption": "Patch apply: Apply",
+        "command": "patch_apply"
+    },
+    {
+        "caption": "Patch apply: Apply reverse",
+        "command": "patch_apply_reverse"
+    },
+    {
+        "caption": "Patch apply: Quick apply",
+        "command": "patch_quick_apply"
+    },
+    {
+        "caption": "Patch apply: Quick apply reverse",
+        "command": "patch_quick_apply_reverse"
     }
 ]

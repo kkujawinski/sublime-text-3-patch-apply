@@ -1,3 +1,6 @@
 {
-    // "first_name": "John"
+  "excluded_dirs": [
+    ".git", ".svn", ".hg", ".cvs"
+  ],
+  "diff_syntax": "Packages/Diff/Diff.tmLanguage"
 }

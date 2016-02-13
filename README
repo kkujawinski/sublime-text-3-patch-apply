@@ -1,0 +1,24 @@
+Description
+-----------
+
+Sublime Text 3 plugin, which allows to apply patches. After choosing command
+from Command Pallette new tab is open where diff needs to be pasted. Patch
+will be applied after closing tab.
+
+
+Commands
+--------
+
+* **Apply** - before appling plugin asks for directory where to apply patch
+  and strip number
+* **Patch apply reverse** - plugin asks same questions as in Apply but applies
+  reverse patch
+* **Quick apply** - plugin takes root folder and assumes "1" as strip number
+* **Quick apply reverse** - plugin takes same assumptions as in Quick apply but
+  applies reverse patch
+
+
+Contributors
+------------
+1. Kamil Kujawinski
+2. Anders Nøklestad (directory selection taken from  https://github.com/noklesta/SublimeQuickFileCreator)
