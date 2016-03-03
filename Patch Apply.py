@@ -50,7 +50,9 @@ def prepare_exclude_pattern(excluded_dirs):
 class PatchApplyListener(sublime_plugin.EventListener):
     def __init__(self):
         s = sublime.load_settings('Patch Apply.sublime-settings')
-        excluded_dirs = s.get('excluded_dirs', [])
+
+        excluded_dirs_default = [".git", ".svn", ".hg", ".cvs"]
+        excluded_dirs = s.get('excluded_dirs', excluded_dirs_default)
         self.excluded = prepare_exclude_pattern(excluded_dirs)
 
     def full_process_dir_path(self, callback):
